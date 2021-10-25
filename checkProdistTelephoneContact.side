@@ -1,0 +1,156 @@
+{
+  "id": "ce889ce4-f81b-4547-80dc-2d764ad87f62",
+  "version": "2.0",
+  "name": "checkProdistTelephoneContact",
+  "url": "https://www.google.com.br",
+  "tests": [{
+    "id": "6018653e-9a81-4e9c-80b6-e07aab2cf08d",
+    "name": "checkProdistTelephoneContact",
+    "commands": [{
+      "id": "403bd7b1-b9e8-4de6-8b87-68cf37af8487",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65b09e23-029b-4de3-9ff6-20edf0737c94",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06e10bc9-0169-413b-b05c-57f28663c42b",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d018feb-f837-4af1-b5b1-cbf76948e82d",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "prodist technologies"
+    }, {
+      "id": "dd9d996c-79bb-4564-8d83-46d7b0b30d01",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "2f383447-7cce-4c11-91e7-58de16324a18",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.eKjLze .LC20lb",
+      "targets": [
+        ["css=.eKjLze .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Prodist Technologies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "459e535c-db7e-4afa-9ffc-3d41e3f9f1d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.eKjLze .LC20lb",
+      "targets": [
+        ["css=.eKjLze .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Prodist Technologies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8629493f-0261-48d1-9962-e59083d57c10",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.eKjLze .LC20lb",
+      "targets": [
+        ["css=.eKjLze .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Prodist Technologies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d287980-7db1-4c8f-8f53-2fe4d8153a90",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-90555 > a",
+      "targets": [
+        ["css=#menu-item-90555 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contato')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-90555']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.prodist.com.br/contato/')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c689195-14df-4a32-9fdd-2de2402e8143",
+      "comment": "",
+      "command": "click",
+      "target": "css=#row-unique-2 .wpb_column:nth-child(3) p:nth-child(2)",
+      "targets": [
+        ["css=#row-unique-2 .wpb_column:nth-child(3) p:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='row-unique-2']/div/div/div[3]/div/div/div/div/div/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[3]/div/div/div/div/div/div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'+55 (11) 4380-6585')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecbd128c-b009-4d35-8be8-a853bdaaa698",
+      "comment": "",
+      "command": "click",
+      "target": "css=#row-unique-2 .wpb_column:nth-child(3) p:nth-child(2)",
+      "targets": [
+        ["css=#row-unique-2 .wpb_column:nth-child(3) p:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='row-unique-2']/div/div/div[3]/div/div/div/div/div/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[3]/div/div/div/div/div/div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'+55 (11) 4380-6585')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "733bd4cc-1ebc-4d81-9579-2df167f1eb86",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#row-unique-2 .wpb_column:nth-child(3) p:nth-child(2)",
+      "targets": [
+        ["css=#row-unique-2 .wpb_column:nth-child(3) p:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='row-unique-2']/div/div/div[3]/div/div/div/div/div/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[3]/div/div/div/div/div/div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'+55 (11) 4380-6585')]", "xpath:innerText"]
+      ],
+      "value": "+55 (11) 4380-6585"
+    }]
+  }],
+  "suites": [{
+    "id": "859b8e9a-e6f0-48df-9709-84ecb0107172",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6018653e-9a81-4e9c-80b6-e07aab2cf08d"]
+  }],
+  "urls": ["https://www.google.com.br/"],
+  "plugins": []
+}
